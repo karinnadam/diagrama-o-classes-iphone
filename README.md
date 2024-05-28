@@ -70,3 +70,5 @@ public class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
         meuIphone.atualizarPagina();
     }
 }
+
+![image](https://github.com/karinnadam/diagrama-o-classes-iphone/assets/167915595/f09e220a-7cad-472b-91a2-e88dc691c9dd)

@@ -1,29 +1,6 @@
 # diagrama-classes-iphone
  A diagramação das classes e interfaces com a proposta de representar os papéis do iPhone de: Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
 
-Implementação em Java
-ReprodutorMusical.java
-public interface ReprodutorMusical {
-    void tocar();
-    void pausar();
-    void selecionarMusica(String musica);
-}
------------------------------------------------------------------
-AparelhoTelefonico.java
-public interface AparelhoTelefonico {
-    void ligar(String numero);
-    void atender();
-    void iniciarCorreioVoz();
-}
-------------------------------------------------------------------
-NavegadorInternet.java
-public interface NavegadorInternet {
-    void exibirPagina(String url);
-    void adicionarNovaAba();
-    void atualizarPagina();
-}
----------------------------------------------------------------------
-iPhone.java
 public class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
     
     // Implementação dos métodos de ReprodutorMusical
